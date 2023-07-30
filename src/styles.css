@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Shadows Into Light', cursive;
+  }
+
+    
+  body {
+    padding: 0;
+    background-color: #fff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  @keyframes fadeinout {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+  .quote-container {
+    max-width: 50vw;
+    padding: 1rem 2rem;
+    background-color: #DD79B1;
+    margin: auto;
+    border-radius: 15px;
+    color: #fff;
+    animation: 2.5s fadeinout;
+  }
+
+  .quote-text {
+    margin: auto;
+    font-size: calc(10px + 2vmin);
+    text-align: center;
+  }
+
+  .quote-icon {
+    color: #AD2370;
+    display: flex;
+  }
+
+  .left {
+    flex-direction: row;
+  }
+
+  .right {
+    flex-direction: row-reverse;
+  }
+
+  .quote-author {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row-reverse;
+    font-size: calc(10px + 1.2vmin);
+  }
+
+  .button-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .share {
+    margin-right: 1rem;
+    font-size: calc(10px + 1.5vmin);
+  }
+
+  .new-button {
+    margin-right: 0.1rem;
+    margin-left: 1rem;
+  }
+
+  a {
+    text-decoration: none;
+    color: #fff;
+    cursor: crosshair;
+  }
+
+  a:hover {
+    color: #AD2370;
+  }
+
+  button {
+    border: 1px solid #AD2370;
+    background-color: #AD2370;
+    color: #fff;
+    border-radius: 5px;
+    font-size: calc(10px + 1.5vmin);
+    cursor: crosshair;
+  }
+
+  button:hover {
+    border: 1px solid #EA9EC9;
+    background-color: #EA9EC9;
+    color: #AD2370;
+  }
